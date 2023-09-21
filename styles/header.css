@@ -78,5 +78,18 @@
 .titulo__cabecalho{
     font-family: 'Bebas Neue';
     font-size: 30px;
+    display: block;
 }
 
+.opcoes{
+    display: flex;
+}
+
+.opcoes__item{
+    padding: 0 lem;
+}
+
+.opcoes__link{
+    text-decoration: none;
+    color: var(--preto);
+}
