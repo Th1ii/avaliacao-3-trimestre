@@ -70,4 +70,40 @@
         display: block;
     }
 
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+    
+    .opcoes-li{
+        padding: 0 1em;
+    }
+
+    .Item_Li{
+        text-decoration: none;
+        color: var(--preto);
+        column-gap: 20px;
+        
+    }
+
+    .container__imagem-transparente{
+        display: none;
+    }
+
+    .cabecalho__menu--hamburguer{
+        display: none;
+    }
+
+    .opcoes-bot:checked~.lista-menu{
+        display: block;
+        width: auto;       
+    }
+
+    .opcoes-bot{
+        display: none;
+    }
+
 }

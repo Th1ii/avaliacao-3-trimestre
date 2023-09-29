@@ -24,14 +24,13 @@
     .gridimg{
         background-color: rgb(137, 137, 255);
     }
+
     .Imagem{
-        border-top: 10px inset rgb(38, 160, 44);
-        border-left: 10px solid rgb(231, 217, 12);
-        border-right: 10px solid rgb(223, 5, 5);
-        border-bottom: 10px dashed rgb(9, 9, 177);
+        border: inset rgb(48, 45, 45);
         width: 180px!important;
         height: 160px!important;
     }
+
     .titulo{
         font-size: 30px;
         color: rgb(2, 46, 46);
